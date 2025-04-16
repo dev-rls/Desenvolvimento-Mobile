@@ -3,10 +3,9 @@ import { StyleSheet, Text, View, StatusBar, Image, ScrollView, TouchableOpacity 
 import { AntDesign } from '@expo/vector-icons';
 
 function MinhasCredenciais({ githubUser }) {
-  // Estado para controlar o like
+  
   const [liked, setLiked] = useState(false);
 
-  // Função para alternar o estado de like
   const toggleLike = () => {
     setLiked(!liked);
   };
